@@ -1,0 +1,54 @@
+/* Survey page styles */
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+input:focus {
+  border: 3px solid #1affd1;
+}
+
+textarea:focus {
+  border: 3px solid #1affd1;
+}
+
+input[type="radio"]:checked + label {
+  font-weight: bold;
+  color: #1affd1;
+
+}
+
+.container{
+
+}
+.newsletter{
+  width: 40%;
+  text-align: right;
+
+}
+
+.newsletter legend {
+  text-align: center;
+}
+
+.newsletter label {
+  float: left;
+}
+
+.hint_01, .hint_02, .hint_03, .hint_04, .hint_05 {
+  display: none;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
